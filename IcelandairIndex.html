@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--  Meta  -->
+    <meta charset="UTF-8" />
+    <title>Icelandair</title>
+    <link rel="icon" href="images/icelandair_icon.png" sizes="30x30" type="image/png">
+    <!-- Scripts -->
+    <script src="index.js"></script>
+    <!--  Styles  -->
+    <link rel="stylesheet" href="IcelandairSite.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Load icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <div class="header">
+        <!-- Logo -->
+        <img src="images/IcelandairLogo.png" class="header-logo" alt="Icelandair">
+        <button class="ask-btn" type="button" onclick="alert('Ask me!')">Ask question</button>
+    </div>
+</head>
+
+<body>
+    <!-- Blue search container - top -->
+    <div class="search-container">
+        <div class="search-question">
+            <input class="search-input" type="text" placeholder="Search for thousands of questions" name="box">
+            <button class="search-icon"><i class="fa fa-search"></i></button>
+        </div>
+    </div>
+
+    <!-- taps -->
+    <div class="tabs-container">
+        <div class="tabs">Popular</div>
+        <div class="tabs">Valflokkur # 1</div>
+        <div class="tabs">Valflokkur # 2</div>
+        <div class="tabs">Valflokkur # 3</div>
+        <div class="tabs">Valflokkur # 4</div>
+
+    </div>
+
+    <div class="body-container">
+    <!-- Answers - and ask button -->
+        <div class="answerbox">
+            <h3>Answers</h3>
+            <button class="ask-btn-invert" type="button" onclick="alert('Ask me!')">Ask question</button>
+        </div>
+    <!-- Answers colums -->
+        <div class="question-container">
+            <div class="question-container-boarder">
+                <div class="views">
+                    <h5>785</h5>
+                    <h4>VIEWS</h4>
+                </div>
+                <div class="question">
+                    <div class="blue">
+                        <div onclick="myFunction()">What can a hot air fryer do what my oven can not do?</div>
+                    </div>
+                    <div class="grey">Asked by Valþór</div>
+                    <div class="department-button">
+                        <span class="department-tabs">Sales</span>
+                        <span class="department-tabs">Marketing</span>
+                    </div>
+                    <div id="my-answer">
+                        <div class="my-answer-grey">Answer</div>
+                        <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.</p>
+                        <p>
+                            It's hard for many people to believe that there are extraordinary things inside themselves, as well as others. I hope you can keep an open mind.</p>
+                    </div>
+                </div>
+                <div class="like-dislike">
+                    <div class="row">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="none" d="M24 24H0V0h24v24z" />
+                            <path d="M2 20h2c.55 0 1-.45 1-1v-9c0-.55-.45-1-1-1H2v11zm19.83-7.12c.11-.25.17-.52.17-.8V11c0-1.1-.9-2-2-2h-5.5l.92-4.65c.05-.22.02-.46-.08-.66-.23-.45-.52-.86-.88-1.22L14 2 7.59 8.41C7.21 8.79 7 9.3 7 9.83v7.84C7 18.95 8.05 20 9.34 20h8.11c.7 0 1.36-.37 1.72-.97l2.66-6.15z" style="fill:#447530;" />
+                        </svg>
+                        <p>5 Like</p>
+                    </div>
+                    <div class="row">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="none" d="M24 24H0V0h24v24z" />
+                            <path d="M22 4h-2c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h2V4zM2.17 11.12c-.11.25-.17.52-.17.8V13c0 1.1.9 2 2 2h5.5l-.92 4.65c-.05.22-.02.46.08.66.23.45.52.86.88 1.22L10 22l6.41-6.41c.38-.38.59-.89.59-1.42V6.34C17 5.05 15.95 4 14.66 4h-8.1c-.71 0-1.36.37-1.72.97l-2.67 6.15z" style="fill:#B8373B;" />
+                        </svg>
+                        <p>0 Dislike</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- #2 -->
+        <div class="question-container">
+            <div class="question-container-boarder">
+                <div class="views">
+                    <h5>233</h5>
+                    <h4>VIEWS</h4>
+                </div>
+                <div class="question">
+                    <div class="blue">
+                        <div onclick="">Household resolution professional wanted</div>
+                    </div>
+                    <div class="grey">Asked by Valþór</div>
+                    <div class="department-button">
+                        <span class="department-tabs">Sales</span>
+                        <span class="department-tabs">Marketing</span>
+                    </div>
+                </div>
+
+                <div class="like-dislike">
+                    <div class="row">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="none" d="M24 24H0V0h24v24z" />
+                            <path d="M2 20h2c.55 0 1-.45 1-1v-9c0-.55-.45-1-1-1H2v11zm19.83-7.12c.11-.25.17-.52.17-.8V11c0-1.1-.9-2-2-2h-5.5l.92-4.65c.05-.22.02-.46-.08-.66-.23-.45-.52-.86-.88-1.22L14 2 7.59 8.41C7.21 8.79 7 9.3 7 9.83v7.84C7 18.95 8.05 20 9.34 20h8.11c.7 0 1.36-.37 1.72-.97l2.66-6.15z" style="fill:#447530;" />
+                        </svg>
+                        <p>1 Like</p>
+                    </div>
+                    <div class="row">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="none" d="M24 24H0V0h24v24z" />
+                            <path d="M22 4h-2c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h2V4zM2.17 11.12c-.11.25-.17.52-.17.8V13c0 1.1.9 2 2 2h5.5l-.92 4.65c-.05.22-.02.46.08.66.23.45.52.86.88 1.22L10 22l6.41-6.41c.38-.38.59-.89.59-1.42V6.34C17 5.05 15.95 4 14.66 4h-8.1c-.71 0-1.36.37-1.72.97l-2.67 6.15z" style="fill:#B8373B;" />
+                        </svg>
+                        <p>16 Dislike</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- #3 -->
+        <div class="question-container">
+            <div class="question-container-boarder">
+                <div class="views">
+                    <h5>16</h5>
+                    <h4>VIEWS</h4>
+                </div>
+                <div class="question">
+                    <div class="blue">
+                        <div onclick="">Where are cheap toiletries available?</div>
+                    </div>
+                    <div class="grey">Asked by Valþór</div>
+                    <div class="department-button">
+                        <span class="department-tabs">Sales</span>
+                        <span class="department-tabs">Marketing</span>
+                    </div>
+                </div>
+
+                <div class="like-dislike">
+                    <div class="row">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="none" d="M24 24H0V0h24v24z" />
+                            <path d="M2 20h2c.55 0 1-.45 1-1v-9c0-.55-.45-1-1-1H2v11zm19.83-7.12c.11-.25.17-.52.17-.8V11c0-1.1-.9-2-2-2h-5.5l.92-4.65c.05-.22.02-.46-.08-.66-.23-.45-.52-.86-.88-1.22L14 2 7.59 8.41C7.21 8.79 7 9.3 7 9.83v7.84C7 18.95 8.05 20 9.34 20h8.11c.7 0 1.36-.37 1.72-.97l2.66-6.15z" style="fill:#447530;" />
+                        </svg>
+                        <p>121 Like</p>
+                    </div>
+                    <div class="row">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="none" d="M24 24H0V0h24v24z" />
+                            <path d="M22 4h-2c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h2V4zM2.17 11.12c-.11.25-.17.52-.17.8V13c0 1.1.9 2 2 2h5.5l-.92 4.65c-.05.22-.02.46.08.66.23.45.52.86.88 1.22L10 22l6.41-6.41c.38-.38.59-.89.59-1.42V6.34C17 5.05 15.95 4 14.66 4h-8.1c-.71 0-1.36.37-1.72.97l-2.67 6.15z" style="fill:#B8373B;" />
+                        </svg>
+                        <p>15 Dislike</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- #4 -->
+        <div class="question-container">
+            <div class="question-container-boarder">
+                <div class="views">
+                    <h5>233</h5>
+                    <h4>VIEWS</h4>
+                </div>
+                <div class="question">
+                    <div class="blue">
+                        <div onclick="">What is the best hair serum?</div>
+                    </div>
+                    <div class="grey">Asked by Valþór</div>
+                    <div class="department-button">
+                        <span class="department-tabs">Sales</span>
+                        <span class="department-tabs">Marketing</span>
+                    </div>
+                </div>
+
+                <div class="like-dislike">
+                    <div class="row">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="none" d="M24 24H0V0h24v24z" />
+                            <path d="M2 20h2c.55 0 1-.45 1-1v-9c0-.55-.45-1-1-1H2v11zm19.83-7.12c.11-.25.17-.52.17-.8V11c0-1.1-.9-2-2-2h-5.5l.92-4.65c.05-.22.02-.46-.08-.66-.23-.45-.52-.86-.88-1.22L14 2 7.59 8.41C7.21 8.79 7 9.3 7 9.83v7.84C7 18.95 8.05 20 9.34 20h8.11c.7 0 1.36-.37 1.72-.97l2.66-6.15z" style="fill:#447530;" />
+                        </svg>
+                        <p>333 Like</p>
+                    </div>
+                    <div class="row">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="none" d="M24 24H0V0h24v24z" />
+                            <path d="M22 4h-2c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h2V4zM2.17 11.12c-.11.25-.17.52-.17.8V13c0 1.1.9 2 2 2h5.5l-.92 4.65c-.05.22-.02.46.08.66.23.45.52.86.88 1.22L10 22l6.41-6.41c.38-.38.59-.89.59-1.42V6.34C17 5.05 15.95 4 14.66 4h-8.1c-.71 0-1.36.37-1.72.97l-2.67 6.15z" style="fill:#B8373B;" />
+                        </svg>
+                        <p>16 Dislike</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Footer -->
+        <div class="more-question-container">
+            <button class="view-more-questions">View more questions</button>
+        </div>
+    </div>
+
+</body>
+</div>
+
+<footer>
+    <div class="footer-container">
+        <div class="popular-tags">
+            <h1>Popular tags</h1>
+        </div>
+
+        <!-- Footer tab -->
+        <div class="footer-tabs-container">
+            <button class="footer-tabs">Sales</button>
+            <button class="footer-tabs">Marketing # 1</button>
+            <button class="footer-tabs">Frontline # 2</button>
+            <button class="footer-tabs">Salesforce # 3</button>
+            <button class="footer-tabs">Facebook@work # 4</button>
+            <button class="footer-tabs">Sales</button>
+            <button class="footer-tabs">Marketing # 1</button>
+            <button class="footer-tabs">Frontline # 2</button>
+            <button class="footer-tabs">Salesforce # 3</button>
+            <button class="footer-tabs">Facebook@work # 4</button>
+        </div>
+    </div>
+</footer>
+
+</html>
