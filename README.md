@@ -17,4 +17,6 @@ Extract the package and open the html file in a browser.
 	
 **View in codepen.io **
 
-	--> https://codepen.io/snaedisk/project/live/XrMdJE/
+	--> [a link](https://codepen.io/snaedisk/project/live/XrMdJE/)
+
+	
