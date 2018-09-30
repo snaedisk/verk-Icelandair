@@ -4,7 +4,7 @@ Date: 29/09/2018
 
 Author: Snædís Z. Kjartansdóttir
 
-Readme file for the implementation on assingnment to create a HTTP server. 
+Readme file for the implementation on assignment to create a HTTP server. 
 
 This is a implementation of a layout.
 
@@ -15,8 +15,5 @@ This is a implementation of a layout.
 Extract the package and open the html file in a browser.
 
 	
-**View in codepen.io **
-
-	--> [a link](https://codepen.io/snaedisk/project/live/XrMdJE/)
-
-	
+**View in codepen.io **  
+[Icelandair_snaedis](https://github.com/user/repo/blob/branch/other_file.md)
