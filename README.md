@@ -16,4 +16,4 @@ Extract the package and open the html file in a browser.
 
 	
 **View in codepen.io **  
-[Icelandair_snaedis](https://github.com/user/repo/blob/branch/other_file.md)
+[Icelandair_snaedis](https://codepen.io/snaedisk/project/full/XrMdJE/)
